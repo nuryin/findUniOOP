@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Your University</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body>
+    <!--Navbar-->
+    <header>
+      <a href="#" class="logo"></a>
+      <!--Menu icon-->
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <!--Nav list-->
+      <ul class="navbar">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;<a href="#home" class="home-active">Home</a>&nbsp;&nbsp;
+        <a href="notes.html">Notes</a>&nbsp;&nbsp;
+        <a href="#">University</a>&nbsp;&nbsp;
+        <a href="#">Help</a>
+      </ul>
+      <!--Profile-->
+      <div class="profile">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3MEumU4Aa_4FByoPfMwekm3FvbYtPfDsxg&usqp=CAU">
+        <span><h3>Profile User</h3></span>
+        <i class='bx bx-caret-down'></i>
+      </div>
+    </header>
+    <section class="home" id="home">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <!--Mainpage-->
+  <div class="mainpage">
+    <h1>📍Find Me!📍</h1>
+    <p>Let me help you with finding your university name here.</p>
+    <!--Search bar-->
+    <input type=" text" id="countryInput" name="text" class="search-input" placeholder=" 🔍Enter Country...">
+    <select id="varietyInput" class="selection">
+      <option> Institute Type</option>
+      <option value="university">University</option>
+      <option value="universiti">Universiti</option>
+      <option value="college">College</option>
+      <option value="polytechnic">Polytechnic</option>
+    </select>
+    <input type="button" class="search-btn" value="🔍" onclick="buttonUniv()">
+  </div>
+  <div class="mainpage">
+    <!--Random 5 university name and link-->
+    <script src="uni.js"></script>
+
+    <strong><p class="uni1"></p></strong>
+    <p class="link1"></p>
+    <strong><p class="uni2"></p></strong>
+    <p class="link2"></p>
+    <strong><p class="uni3"></p></strong>
+    <p class="link3"></p>
+    <strong><p class="uni4"></p></strong>
+    <p class="link4"></p>
+    <strong><p class="uni5"></p></strong>
+    <p class="link5"></p>
+  </div>
+  </section>
+  </body>
+</html>

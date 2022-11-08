@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="notes.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+  </head>
+  <body>
+    <!--Navbar-->
+    <header>
+      <a href="#" class="logo"></a>
+      <!--Menu icon-->
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <!--Nav list-->
+      <ul class="navbar">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;<a href="index.html">Home</a>&nbsp;&nbsp;
+        <a href="#notes" class="notes-active">Notes</a>&nbsp;&nbsp;
+        <a href="#">University</a>&nbsp;&nbsp;
+        <a href="#">Help</a>
+      </ul>
+      <!--Profile-->
+      <div class="profile">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE3MEumU4Aa_4FByoPfMwekm3FvbYtPfDsxg&usqp=CAU">
+        <span><h3>Profile User</h3></span>
+        <i class='bx bx-caret-down'></i>
+      </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="mainWrapper">
+    
+      <h1>✨Notes!✨</h1>
+      <!--form notes-->
+      <form>
+        <div class="form-group">
+          <div class="input-group1">
+            <label><strong> File Name</strong></label>
+            <input id="fileName" type="text" class="form-control">
+          </div>
+          
+        </div>
+
+        <div class="form-group">
+          <div class="input-group2">
+            <strong><label>Content</label></strong>
+            <textarea id="fileContents" class="form-control" rows="5"></textarea>
+          </div>
+          
+      <!--button for create read update delete-->
+        </div>
+      </form>
+      <div class="input-group">
+        <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+      </div>
+          
+    </div>
+    <!--javascript for notes.html-->
+    <script src="notes.js">
+      
+      
+    </script>
+  </body>
+</html>
